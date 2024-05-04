@@ -44,7 +44,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-t border-border py-6">
-          <p className="text-center text-sm">Designed and Developed By Hello</p>
+          <p className="text-center text-sm">Designed and Developed By Badr</p>
         </div>
       </div>
     </footer>
