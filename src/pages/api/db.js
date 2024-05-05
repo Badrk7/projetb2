@@ -8,12 +8,6 @@ async function connectToDatabase() {
     await client.connect();
     console.log("Connected to MongoDB");
     let database = client.db("places");
-
-    // const collections = await database.listCollections().toArray();
-    // console.log(
-    //   "Collections:",
-    //   collections.map((col) => col.name)
-    // );
     return database;
   } catch (error) {
     console.error("Error connecting to MongoDB:", error);
