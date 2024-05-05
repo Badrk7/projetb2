@@ -1,12 +1,9 @@
 import NotFound from "../components/404";
-import Base from "../components/base-of";
-
 const notFound = () => {
   return (
-    <Base>
+    <div>
       <NotFound />
-    </Base>
+    </div>
   );
 };
-
 export default notFound;
